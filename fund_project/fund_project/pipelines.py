@@ -60,3 +60,4 @@ class FundProjectPipeline:
         csv_file.seek(0)
         csv_reader = csv.DictReader(csv_file)
         return any(row['download_url'] == item['download_url'] for row in csv_reader)
+        # additional: convert all dates and numbers into right formats, standardize size measure, remove that label
