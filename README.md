@@ -10,6 +10,7 @@
 fund_project/
 │
 ├── fund_project/
+│   ├── FundDatabase/..  
 │   ├── __init__.py
 │   ├── items.py
 │   ├── pipelines.py
@@ -20,7 +21,6 @@ fund_project/
 │
 ├── run.py
 ├── requirements.txt
-├── FundDatabase/..  
 │
 └── scrapy.cfg
 ```
